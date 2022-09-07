@@ -7,13 +7,34 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Mijn Profiel</title>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function Menu() { 
+                document.getElementById("aside").style.display="block";
+            }
+            
+            function dicht() {
+                document.getElementById("aside").style.display="none";
+            }
+        </script>
     </head>
 
 
     <main>
         <body>
             <article>
+                <div id="aside" style="display:none">
+                    <button onclick="dicht()" class="closed">X</button>
+                        <lu>
+                        <li class="link"><a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">HBO-ICT Examen regelement</a></li>
+                        <li class="link"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2020-2021/9.-Implementation-Regulations-ICT-Fulltime-2020-2021.pdf">Implementation</a></li>
+                        <li class="link"><a href="https://learn.hz.nl/my/">Hz learn omgeving</a></li>
+                        <li class="link"><a href="https://teams.microsoft.com/_?culture=nl-nl&country=NL&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/Dutch?threadId=19:a13406b4a9d24e34802806b51eb0d87e@thread.skype&ctx=channel">ICT Teams</a></li>
+                        <li class="link"><a href="https://learn.hz.nl/course/view.php?id=21135#section-0">Studie voorgang</a></li>
+                        <li class="link"><a href="https://github.com/HZ-HBO-ICT">Github</a></li>
+                        </lu>
+                </div>
                 <div class="bar">
+                    <button onclick="Menu()" class="dropdown">Test</button>
                     <a href="./index.html">Index</a>
                     <a href="./profile.html">Profile</a>
                     <a href="./Dashboard.html">Dashboard</a>
