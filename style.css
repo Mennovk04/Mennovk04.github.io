@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(137, 134, 134);
     color: rgb(0, 0, 0);
     font-family: Arial, helvetica, sans-serif;
     margin: 0;
@@ -34,4 +34,42 @@ nav{
 .active{
     background-color:green;
     color: black;
+}
+
+.FAQ{
+    background-color: rgb(61, 61, 61);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;   
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+.question{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+h1{
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.Logo{
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    max-width: 262px;
+    height: 81px;
+}
+
+img{
+    width: 262px;
+    height: 81px;
 }
