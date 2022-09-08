@@ -1,24 +1,24 @@
-
-body{
+body {
     background-color: rgb(137, 134, 134);
     color: rgb(0, 0, 0);
     font-family: Arial, helvetica, sans-serif;
     margin: 0;
 }
-nav{
+
+nav {
     color: blue;
 }
 
-.bar{
+.bar {
     background-color: rgb(70, 66, 66);
     margin: auto;
     text-align: center;
     overflow: hidden;
-    width:473px;
+    width: 477px;
     border-radius: 20px;
 }
 
-.bar a{
+.bar a {
     float: left;
     text-align: center;
     padding: 14px 16px;
@@ -27,34 +27,35 @@ nav{
     font-size: 17px;
 }
 
-.bar a:hover{
+.bar a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.active{
-    background-color:green;
+.active {
+    background-color: green;
     color: black;
 }
 
-.FAQ{
+.FAQ {
     background-color: rgb(61, 61, 61);
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;   
+    width: 1000px;
     height: 500px;
     margin-top: 50px;
     text-align: center;
     color: white;
     border-radius: 20px;
 }
-.question{
+
+.question {
     color: white;
     padding: 10px;
     font-size: 16px;
 }
 
-h1{
+h1 {
     color: white;
     font-size: 20pt;
     text-align: center;
@@ -62,7 +63,7 @@ h1{
 
 }
 
-.Logo{
+.Logo {
     position: absolute;
     right: 0px;
     bottom: 4px;
@@ -70,16 +71,17 @@ h1{
     height: 81px;
 }
 
-img{
+img {
     width: 262px;
     height: 81px;
 }
 
-.answer{
+.answer {
     font-style: italic;
     font-size: 16px;
 }
-.dropdown{
+
+.dropdown {
     color: green;
     background-color: rgb(70, 66, 66);
     border: none;
@@ -91,22 +93,22 @@ img{
     font-size: 17px;
 }
 
-.dropdown:hover{
+.dropdown:hover {
     background-color: #ddd;
     color: black;
 
 }
 
-#aside{
+#aside {
     margin-left: 0px;
     border-radius: 20px;
     background-color: rgb(70, 66, 66);
-    height: 400px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     position: absolute;
 }
 
-.closed{
+.closed {
     border: none;
     color: white;
     background-color: rgb(70, 66, 66);
@@ -115,12 +117,13 @@ img{
     position: absolute;
     font-size: 16px;
 }
-.closed:hover{
+
+.closed:hover {
     background-color: #ddd;
     color: black;
 }
 
-#aside{
+#aside {
     text-align: left;
 }
 
@@ -132,14 +135,11 @@ img{
     font-size: 17px;
 }
 
-#aside a:hover{
+#aside a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.link{
+.link {
     padding: 23px;
 }
-
-
-
