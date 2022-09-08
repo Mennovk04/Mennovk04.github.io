@@ -63,18 +63,14 @@ h1 {
 
 }
 
-.Logo {
-    position: absolute;
-    right: 0px;
-    bottom: 4px;
+#Hz {
     max-width: 262px;
     height: 81px;
+    float: right;
+    position: relative;
 }
 
-img {
-    width: 262px;
-    height: 81px;
-}
+
 
 .answer {
     font-style: italic;
