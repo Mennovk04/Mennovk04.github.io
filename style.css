@@ -153,9 +153,9 @@ h1 {
 }
 
 .monitor, th, td    {
-    border: 1px solid black;
+    border: 1px solid;
     color: white;
-    border-color: white;
+    border-color: rgb(164, 164, 164);
     text-align: left;
     padding: 8px;
 }
@@ -167,7 +167,7 @@ h1 {
 }
 
 .border{
-    border-color: white;
+    border-color: rgb(164, 164, 164);
 }
 
 .fail{
@@ -183,7 +183,7 @@ h1 {
     height: 40px;
     border-radius: 5px;
     margin: 20px 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(164, 164, 164);
     overflow: hidden;
     position: relative;
     margin-left: auto;
