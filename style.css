@@ -42,11 +42,12 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    height: 500px;
+    height: auto;
     margin-top: 50px;
     text-align: center;
     color: white;
     border-radius: 20px;
+    padding: 25px;
 }
 
 .question {
@@ -59,7 +60,6 @@ h1 {
     color: white;
     font-size: 20pt;
     text-align: center;
-    padding: 20px;
 
 }
 
@@ -68,6 +68,7 @@ h1 {
     height: 81px;
     float: right;
     position: relative;
+    padding: 20px;
 }
 
 
@@ -150,3 +151,30 @@ h1 {
     border-radius: 20px;
     color:white;
 }
+
+.monitor, th, td    {
+    border: 1px solid black;
+    color: white;
+    border-color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+.monitor{
+    Margin-left: auto;
+    Margin-right: auto;
+    border-collapse: collapse;
+}
+
+.border{
+    border-color: white;
+}
+
+.fail{
+    background: red;
+}
+
+.pass{
+    background-color: Green;
+}
+
