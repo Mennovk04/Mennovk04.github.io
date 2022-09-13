@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(137, 134, 134);
+    background-image: url(images/background.jpg);
     color: rgb(0, 0, 0);
     font-family: Arial, helvetica, sans-serif;
     margin: 0;
@@ -53,7 +53,8 @@ nav {
 .question {
     color: white;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
+
 }
 
 h1 {
@@ -69,13 +70,17 @@ h1 {
     float: right;
     position: relative;
     padding: 20px;
+    bottom: 115px;
 }
+
 
 
 
 .answer {
     font-style: italic;
-    font-size: 16px;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
 }
 
 .dropdown {
@@ -188,6 +193,8 @@ h1 {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    background-color: orange;
+    color: black;
 
   }
 
@@ -197,3 +204,40 @@ h1 {
     height: 40px;
   }
 
+  #hobby {
+    text-decoration: underline;
+    text-align: left;
+    
+  }
+
+  #foto {
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(70, 66, 66);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;  
+  }
+
+.answerlink{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 10px;
+  }
