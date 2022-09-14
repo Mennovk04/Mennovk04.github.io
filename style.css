@@ -48,6 +48,7 @@ nav {
     color: white;
     border-radius: 20px;
     padding: 25px;
+    opacity: 80%;
 }
 
 .question {
@@ -225,7 +226,6 @@ h1 {
     position: fixed;
     width: 100%;
     background-color: rgb(70, 66, 66);
-    color: white;
     text-align: center;
     height: 100px;
 }
@@ -240,4 +240,18 @@ a{
     text-decoration: underline;
     text-align: center;
     padding-top: 10px;
+  }
+
+  .ict{
+    left: 0px;
+    height: 225px;
+    width: 300px;
+    padding: 20px;
+  }
+
+  .homepagelink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
   }
