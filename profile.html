@@ -1,76 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mijn Profiel</title>
-    <link rel="stylesheet" href="style.css"> 
-    <script>
-      function Menu() { 
-          document.getElementById("aside").style.display="block";
-      }
-      
-      function dicht() {
-          document.getElementById("aside").style.display="none";
-      }
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mijn Profiel</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function Menu() {
+      document.getElementById("aside").style.display = "block";
+    }
+
+    function dicht() {
+      document.getElementById("aside").style.display = "none";
+    }
   </script>
-  </head>
-  <main>
-   <body>
+</head>
+<main>
+
+  <body>
     <div id="aside" style="display:none">
       <button onclick="dicht()" class="closed">X</button>
-          <ul>
-          <li class="link"><a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">HBO-ICT Examen regelement</a></li>
-          <li class="link"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2020-2021/9.-Implementation-Regulations-ICT-Fulltime-2020-2021.pdf">Implementation</a></li>
-          <li class="link"><a href="https://learn.hz.nl/my/">Hz learn omgeving</a></li>
-          <li class="link"><a href="https://teams.microsoft.com/_?culture=nl-nl&country=NL&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/Dutch?threadId=19:a13406b4a9d24e34802806b51eb0d87e@thread.skype&ctx=channel">ICT Teams</a></li>
-          <li class="link"><a href="https://learn.hz.nl/course/view.php?id=21135#section-0">Studie voorgang</a></li>
-          <li class="link"><a href="https://github.com/HZ-HBO-ICT">Github</a></li>
-          </ul>
-     </div>
-      <nav>
+      <ul>
+        <li class="link"><a
+            href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">HBO-ICT Examen
+            regelement</a></li>
+        <li class="link"><a
+            href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2020-2021/9.-Implementation-Regulations-ICT-Fulltime-2020-2021.pdf">Implementation</a>
+        </li>
+        <li class="link"><a href="https://learn.hz.nl/my/">Hz learn omgeving</a></li>
+        <li class="link"><a
+            href="https://teams.microsoft.com/_?culture=nl-nl&country=NL&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/Dutch?threadId=19:a13406b4a9d24e34802806b51eb0d87e@thread.skype&ctx=channel">ICT
+            Teams</a></li>
+        <li class="link"><a href="https://learn.hz.nl/course/view.php?id=21135#section-0">Studie voorgang</a></li>
+        <li class="link"><a href="https://github.com/HZ-HBO-ICT">Github</a></li>
+      </ul>
+    </div>
+    <nav>
 
-        <div class="bar">
-          <button onclick="Menu()" class="dropdown">Links</button>
-          <a href="./index.html">Home</a>
-          <a class="active" href="./profile.html">Profile</a>
-          <a href="./Dashboard.html">Dashboard</a>
-          <a href="./Blog.html">Blog</a>
-          <a href="./FAQ.html">FAQ</a>
-        </div>
-      </nav>
-      <div class="home">
-         <h1>Profiel</h1>
-         <p>Ik ben Menno van Kranenburg. Ik woon in de buurt van de HZ, in het dorp Oost-Souburg. Daar woon ik samen met mijn ouders en mijn zusje.</p>
-         <p>Voordat ik naar de HZ kwam heb ik op de Nehalennia Breeweg in Middelburg gezeten waar ik mijn Havo diploma heb gehaald.</p>
-         <p>In mijn vrije tijd doe ik graag:
-          <ul id="hobby">
-            <li>Muziek luisteren</li>
-            <li>Gamen</li>
-            <li>Fotos en Filmpjes maken met mijn drone</li>
-          </ul>
-          <div id="foto">
-          <img src="images/boulevard.JPG" alt="boulevard" width="400" height="225">          
-          <img src="images/souburg.JPG" alt="boulevard" width="400" height="225">
-          <pre font-family: sans-serif>De boulevard van Vlissingen                                      Oost-Souburg</pre>
-          </div>
-          <p>Naast mijn hobbies en school werk ik al bijna twee jaar bij de Albert Heijn XL in vlissingen</p>
-         <p>Voordat ik naar naar de HZ ging heb ik op de Nehalennia Breeweg in Middelburg gezeten. Hier heb ik mijn Havo diploma gehaald nadat ik eerst 4 jaar vwo gedaan heb en daarna Havo 4 & 5.</p>
-         <p></p>
-         <p></p>
-       </h1>
+      <div class="bar">
+        <button onclick="Menu()" class="dropdown">Links</button>
+        <a href="./index.html">Home</a>
+        <a class="active" href="./profile.html">Profile</a>
+        <a href="./Dashboard.html">Dashboard</a>
+        <a href="./Blog.html">Blog</a>
+        <a href="./FAQ.html">FAQ</a>
       </div>
-       <div class="Logo">
+    </nav>
+    <div class="home">
+      <h1>Profiel</h1>
+      <p>Ik ben Menno van Kranenburg. Ik woon in de buurt van de HZ, in het dorp Oost-Souburg. Daar woon ik samen met
+        mijn ouders en mijn zusje.</p>
+      <p>Voordat ik naar de HZ kwam heb ik op de Nehalennia Breeweg in Middelburg gezeten waar ik mijn Havo diploma heb
+        gehaald.</p>
+      <p>In mijn vrije tijd doe ik graag:
+      <ul id="hobby">
+        <li>Muziek luisteren</li>
+        <li>Gamen</li>
+        <li>Fotos en Filmpjes maken met mijn drone</li>
+      </ul>
+      <div id="foto">
+        <img src="images/boulevard.JPG" alt="boulevard" width="400" height="225">
+        <img src="images/souburg.JPG" alt="boulevard" width="400" height="225">
+        <pre font-family: sans-serif>De boulevard van Vlissingen                                      Oost-Souburg</pre>
+      </div>
+      <p>Naast mijn hobbies en school werk ik al bijna twee jaar bij de Albert Heijn XL in vlissingen</p>
+      <p>Voordat ik naar naar de HZ ging heb ik op de Nehalennia Breeweg in Middelburg gezeten. Hier heb ik mijn Havo
+        diploma gehaald nadat ik eerst 4 jaar vwo gedaan heb en daarna Havo 4 & 5.</p>
+      <p></p>
+      <p></p>
+      </h1>
+    </div>
+    <div class="Logo">
     </div>
     <footer>
       <p><a href="mailto:kran0013@hz.nl" color="white">kran0013@hz.nl</a></p>
-      <p><a href="hz.nl" color="white" >Website van de HZ</a></p>
+      <p><a href="hz.nl" color="white">Website van de HZ</a></p>
       <div class="Logo">
         <img src="images/Logo.jpg" alt="Logo" id="Hz">
 
-    </div>
-     </footer>
-    </body>
-  </main>
+      </div>
+    </footer>
+  </body>
+</main>
+
 </html>

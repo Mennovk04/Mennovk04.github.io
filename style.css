@@ -148,17 +148,19 @@ h1 {
 }
 
 .dashboard {
-    background-color:rgb(61, 61, 61);
+    background-color: rgb(61, 61, 61);
     height: 500px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     border-radius: 20px;
-    color:white;
+    color: white;
 }
 
-.monitor, th, td    {
+.monitor,
+th,
+td {
     border: 1px solid;
     color: white;
     border-color: rgb(164, 164, 164);
@@ -166,21 +168,21 @@ h1 {
     padding: 8px;
 }
 
-.monitor{
+.monitor {
     Margin-left: auto;
     Margin-right: auto;
     border-collapse: collapse;
 }
 
-.border{
+.border {
     border-color: rgb(164, 164, 164);
 }
 
-.fail{
+.fail {
     background: red;
 }
 
-.pass{
+.pass {
     background-color: Green;
 }
 
@@ -197,31 +199,31 @@ h1 {
     background-color: orange;
     color: black;
 
-  }
+}
 
-  
-.progress-bar{
+
+.progress-bar {
     background-color: red;
     height: 40px;
-  }
+}
 
-  #hobby {
+#hobby {
     text-decoration: underline;
     text-align: left;
-    
-  }
 
-  #foto {
+}
+
+#foto {
     margin-left: 0px;
     margin-top: auto;
     margin-bottom: auto;
-  }
+}
 
-  p {
+p {
     font-size: 20px;
-  }
+}
 
-  footer {
+footer {
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -230,28 +232,36 @@ h1 {
     height: 100px;
 }
 
-a{
-    text-decoration: none;  
-  }
+a {
+    text-decoration: none;
+}
 
-.answerlink{
+.answerlink {
     color: white;
     text-decoration: none;
     text-decoration: underline;
     text-align: center;
     padding-top: 10px;
-  }
+}
 
-  .ict{
+.ict {
     left: 0px;
     height: 225px;
     width: 300px;
     padding: 20px;
-  }
+}
 
-  .homepagelink {
+.homepagelink {
     text-decoration: none;
     color: white;
     font-size: 20px;
     text-decoration: underline;
-  }
+}
+
+.bloglink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 20px;
+}
